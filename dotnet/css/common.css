@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+
+body {
+  background: none repeat scroll 0 0 #FFFFFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1em;
+  color: #333333;
+}
+
+a {
+  outline: medium none;
+  color: #333333;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: #ea4848;
+}
+
+input, textarea, select {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0 none;
+  padding: 5px;
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+input, textarea {
+    -moz-transition: background 0.2s linear 0s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
+}
+input:focus, textarea:focus {
+    border-color: #993300;
+    box-shadow: 0 1px rgba(34, 25, 25, 0.15) inset, 0 1px rgba(255, 255, 255, 0.8), 0 0 14px rgba(235, 82, 82, 0.35);
+    color: #333333;
+    outline: 0 none;
+}
+
+.inside {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* font */
+.serif {
+  font-family: palatino,"palatino linotype","book antiqua",serif;
+}
+.hiragino {
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+.lucide {
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+.times_roman {
+  font-family: "Times New Roman",Times,"Ryumin Medium KL","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","メイリオ","ＭＳ Ｐ明朝",serif;
+}
+.GrayColor {
+  color: #8C7E7E;
+}
+
+
+.centered { margin: 0 auto; }
+.text_center { text-align: center; }
+.text_right { text-align: right; }
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.btn {
+  background-color: #ea4848;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 1;
+  padding: 18px 14px;
+  text-decoration: none;
+  font-size:12px;
+  -moz-transition:all 0.3s ease 0s;
+  -webkit-transition:all 0.3s ease 0s;
+  -o-transition:all 0.3s ease 0s;
+  transition:all 0.3s ease 0s;
+  border:none;
+}
+.btn:hover {
+  background: #111 !important;
+  color: #fff;
+}
+
+header {
+  padding: 20px 0 15px;
+}
+
+header .logo {
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  float: left;
+  color: #ea4848;
+}
+header #menu {
+  float: right;
+}
+header #menu ul {
+  margin-top: 10px;
+}
+header #menu ul li {
+  float: left;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  margin-left: 15px;
+}
+#cover {
+  width: 100%;
+  position: relative;
+  max-height: 380px !important;
+  overflow:hidden;
+  background: #f3f3f3;
+  background:rgba(0,0,0,.075);
+  box-shadow:inset 0 0 30px rgba(0,0,0,0.09);
+}
+#cover #copy {
+  position: absolute;
+  top: 24%;
+  margin-top: -20px;
+  left: 20%;
+  margin-left: -12px;
+  width: 425px;
+}
+#cover #copy h2 {
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-weight: bold;
+  font-size: 44px; 
+  line-height: 60px;
+  color:#fff;
+  margin-bottom: 16px;
+}
+
+
+
+
+
+
+
